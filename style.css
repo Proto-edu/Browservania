@@ -1,0 +1,27 @@
+body {
+    background-color: black;
+    animation: backgroundTransition 2s infinite alternate;
+}
+@keyframes backgroundTransition {
+    from {
+        background-color: black;
+    }
+    to {
+        background-color: rgb(54, 54, 54);
+    }
+}
+h1 {
+    color: white;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+}
+body {
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+    }
+}
